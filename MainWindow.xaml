@@ -1,0 +1,21 @@
+﻿<Window x:Class="Квалификационный_Экзамен.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Квалификационный_Экзамен"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <TextBox Name="Oby" Canvas.Left="154" TextWrapping="Wrap" FontSize="16" Canvas.Top="35" Width="120" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" RenderTransformOrigin="0.501,0.493"/>
+        <TextBox x:Name="Plotnost" Canvas.Left="154" TextWrapping="Wrap" FontSize="16" Canvas.Top="102" Width="120" Height="42" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Canvas.Left="44" TextWrapping="Wrap" FontSize="16" Text="Объем" Canvas.Top="45" RenderTransformOrigin="1.464,0.558" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBlock Canvas.Left="44" TextWrapping="Wrap" FontSize="16" Text="Плотность" Canvas.Top="102" RenderTransformOrigin="1.464,0.558" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button Click="Result_Click" Content="Вычислить" Canvas.Left="328" FontSize="16" Canvas.Top="56" Height="44" Width="144" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label Name="Result" FontSize="16" Canvas.Left="40" Canvas.Top="253" HorizontalAlignment="Center" VerticalAlignment="Top" Width="389" Height="153"/>
+        <Button Click="Zapravka_Click" Content="Заправить" Canvas.Left="560" FontSize="16" Canvas.Top="80" Height="44" Width="144" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="Zapas" Canvas.Left="154" TextWrapping="Wrap" FontSize="16" Canvas.Top="176" Width="120" Height="42" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Canvas.Left="44" TextWrapping="Wrap" FontSize="16" Text="Запас" Canvas.Top="176" RenderTransformOrigin="1.464,0.558" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+    </Canvas>
+</Window>
